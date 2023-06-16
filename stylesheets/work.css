@@ -1,0 +1,99 @@
+.third::after {
+    width: 100%;
+}
+
+
+section {
+    width: 100%;
+    height: 43vw;
+    margin-top: 4.4vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    width: 39vw;
+}
+
+.text p {
+    margin-top: 2.4vw;
+}
+
+.img {
+    width: 51vw;
+    position: relative;
+    z-index: 2;
+    background-image: url("../images/work_img_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.button {
+    width: 30vw;
+    height: 4vw;
+    margin-top: 3vw;
+    padding-top: 1vw; 
+}
+
+.ghost {
+    width: 14vw;
+    height: 14vw;
+    background-image: url("../images/work_ghost.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 3vw; 
+    left: 47vw;
+    z-index: 1;
+    animation: ghost 1s linear;
+    animation-play-state: paused;
+}
+
+
+.img:hover ~ .ghost {
+    animation-play-state: running;
+}
+
+@keyframes ghost {
+    from {
+        top: 12vw;
+    }
+    to {
+        top: 3vw;
+    }
+}
+
+/* h2 {
+    margin-top: 10.5vw;
+    margin-left: 3vw;
+}
+p {
+    margin-left: 3vw;
+    margin-top: 2.2vw;
+}
+
+.button {
+    color: #121212;
+    background-color: #F0F0F0;
+    width: 32.4vw;
+    height: 6.4vw;
+    margin-left: 3vw;
+    margin-top: 6vw;
+    padding-top: 2.3vw;
+}
+
+.work-img {
+    width: 32.4vw;
+    height: 31.4vw;
+    margin: -31.6vw 64.1vw;
+    background-image: url("../images/work_img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+footer {
+    margin-top: 42vw;
+} */

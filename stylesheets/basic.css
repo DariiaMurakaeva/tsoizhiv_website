@@ -1,0 +1,118 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Gilroy', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: #121212;
+    transition: all 0.3s;
+}
+
+* {
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 5vw;
+    font-weight: 600;
+    color: #F0F0F0;
+}
+h2 {
+    font-size: 3.9vw;
+    font-weight: 600;
+    color: #F0F0F0;
+}
+h3 {
+    font-size: 2.1vw;
+    font-weight: 600;
+    color: #F0F0F0;
+}
+p {
+    font-size: 2.1vw;
+    font-weight: 500;
+    line-height: 2.5vw;
+    color: #F0F0F0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2vw 2.8vw;
+}
+
+nav a {
+    position: relative;
+    font-size: 1.53vw;
+    font-weight: 500;
+    text-decoration: none;
+    color: #F0F0F0;
+    margin: 2vw 2.6vw;
+}
+nav a:nth-of-type(4) {
+    display: inline-block;
+    margin-right: 0vw;
+}
+nav a:after {
+    content: "";
+    position: absolute;
+    background-color: #F0F0F0;
+    width: 0;
+    height: 0.13vw;
+    left: 0;
+    bottom: -0.2vw;
+    transition: 0.3s;
+}
+
+a:hover:after {
+    width: 100%;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 0.6vw;
+    text-decoration: none;
+    font-size: 2.1vw;
+    font-weight: 600;
+    color: #121212;
+    background-color: #F0F0F0;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    color: #F0F0F0;
+    background-color: #7EB6CE;
+}
+
+footer {
+    width: 100vw;
+    height: 7.5vw;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    font-size: 1.53vw;
+    color: #121212;
+    margin-left: 7vw; 
+    margin-top: 2.5vw;
+}
+
+footer p:nth-of-type(1) {
+    margin-left: 46vw; 
+}
+
+footer p:nth-of-type(3) {
+    margin-right: 3vw; 
+}
+
+@keyframes row {
+    0% {transform: translateX(0)}
+    100% {transform: translateX(-50%)}
+}
+
+@keyframes row-reverse {
+    0% {transform: translateX(-50%)}
+    100% {transform: translateX(0)}
+}

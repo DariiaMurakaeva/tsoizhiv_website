@@ -1,0 +1,245 @@
+* {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.first-img {
+    margin-top: 3vw;
+    width: 100%;
+    height: 51vw;
+    background-image: url("../images/about_1.png");
+    padding-top: 14vw;
+    padding-left: 51vw;
+}
+
+/* О здании */
+.container-zdanie {
+    width: 100vw;
+    height: 4.6vw;
+    position: relative;
+    top: 3.4vw;
+    overflow: hidden;
+}
+
+.block-zdanie {
+    width: 278vw;
+    position: absolute;
+    display: flex;
+    animation: row 10s linear infinite;
+    
+}
+
+.block-zdanie h1, .block-second h1, .block-zo h1, .block-stage h1, .block-rep h1 {
+    margin-left: 3vw;
+    transition: all 0.3s;
+}
+
+.zdanie {
+    width: 100%;
+    height: 29vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7vw;
+    padding: 0 3vw;
+}
+
+.text-zdanie {
+    width: 31vw;
+}
+.text-zdanie p {
+    margin-top: 1vw;
+}
+
+.img-zdanie {
+    width: 62vw;
+    background-image: url("../images/about_zdanie.png");
+}
+
+/* Второй этаж  */
+.container-second {
+    width: 100vw;
+    height: 5.2vw;
+    position: relative;
+    top: 6.4vw;
+    overflow: hidden;
+}
+
+.block-second {
+    width: 264vw;
+    position: absolute;
+    display: flex;
+    animation: row-reverse 10s linear infinite;
+}
+
+.block-second h1 {
+    margin-left: 3vw;
+}
+
+.floor2 {
+    width: 100%;
+    height: 29vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9vw;
+    padding: 0 3vw;
+}
+
+.text-second {
+    width: 32vw;
+    padding-top: 2vw;
+}
+
+.img-second {
+    width: 38vw;
+    background-image: url("../images/floor2.png");    
+}
+
+/* Сцена */
+.container-stage {
+    width: 100vw;
+    height: 5.2vw;
+    position: relative;
+    top: 2vw;
+    overflow: hidden;
+}
+
+.block-stage {
+    width: 222vw;
+    position: absolute;
+    display: flex;
+    animation: row 10s linear infinite;
+}
+
+.block-stage h1 {
+    margin-left: 3vw;
+}
+
+.stage {
+    width: 100%;
+    height: 29vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+    padding: 0 3vw;
+}
+
+.text-stage {
+    width: 32vw;
+    padding-top: 2vw;
+}
+
+.img-stage {
+    margin-top: 1vw;
+    width: 62vw;
+    background-image: url("../images/stage_img.png");    
+} 
+
+/* Зона отдыха */
+.container-zo {
+    width: 100vw;
+    height: 5.2vw;
+    position: relative;
+    top: 4vw;
+    overflow: hidden;
+}
+
+.block-zo {
+    width: 266vw;
+    position: absolute;
+    display: flex;
+    animation: row-reverse 10s linear infinite;
+}
+
+.block-zo h1 {
+    margin-left: 3vw;
+}
+
+.zo {
+    width: 100%;
+    height: 29vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+    padding: 0 3vw;
+}
+
+.text-zo {
+    width: 32vw;
+    padding-top: 2vw;
+}
+
+.img-zo {
+    margin-top: 1vw;
+    width: 62vw;
+    background-image: url("../images/zo-img.png");    
+} 
+
+/* ура репетиции */
+.container-rep {
+    width: 100vw;
+    height: 5.2vw;
+    position: relative;
+    top: 2vw;
+    overflow: hidden;
+}
+
+.block-rep {
+    width: 216vw;
+    position: absolute;
+    display: flex;
+    animation: row 10s linear infinite;
+}
+
+.block-rep h1 {
+    margin-left: 3vw;
+}
+
+.rep {
+    width: 100%;
+    height: 29vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vw;
+    padding: 0 3vw;
+}
+
+.text-rep {
+    width: 32vw;
+    padding-top: 2vw;
+}
+
+.img-rep {
+    margin-top: 1vw;
+    width: 62vw;
+    background-image: url("../images/rep_img.png");    
+} 
+
+/* Подробнее */
+.more {
+    margin: 1vw 3vw;
+}
+
+.more a {
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 600;
+    color: #F0F0F0;
+    transition: all 0.3s;
+}
+
+.more a:hover {
+    color: #7EB6CE;
+}
+
+footer {
+    margin-top: 6vw;
+}
+
+/* Стили строк */
+
+.block-zdanie:hover, .block-second:hover, .block-stage:hover, .block-zo:hover, .block-rep:hover {
+    animation-play-state: paused;
+}
+
+.block-zdanie h1:hover, .block-second h1:hover, .block-stage h1:hover, .block-zo h1:hover, .block-rep h1:hover {
+    color: #7EB6CE;
+}

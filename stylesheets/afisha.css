@@ -1,0 +1,274 @@
+* {
+    scroll-behavior: smooth;
+}
+.first::after {
+    width: 100%;
+}
+.container_line1 {
+    width: 100vw;
+    height: 6vw;
+    margin-top: 8vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.block_line1 {
+    width: 272.2vw;
+    position: absolute;
+    animation: row 12s linear infinite;
+}
+
+.block_line1:hover {
+    animation-play-state: paused;
+}
+
+.block_line1 a:hover{
+    color: #7EB6CE;
+}
+
+.block_line1 a, .block_line2 a {
+    font-size: 5.83vw;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 3vw;
+    color: #F0F0F0;
+    transition: 0.2s;
+}
+
+.container_line2 {
+    width: 100vw;
+    height: 6vw;
+    margin-top: 1vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.block_line2 {
+    width: 272.2vw;
+    position: absolute;
+    animation: row-reverse 12s linear infinite;
+}
+
+.block_line2:hover {
+    animation-play-state: paused;
+}
+
+.block_line2 a:hover {
+    color: #7EB6CE;
+}
+
+#container-concerts {
+    width: 100vw;
+    height: 45.2vw;
+    background-color: #F0F0F0;
+    margin-top: 4.2vw;
+    padding-top: 5vw;
+    overflow: hidden;
+}
+
+.block_concerts {
+    display: flex;
+    width: 218vw;
+    height: 34vw;
+    animation: row 10s linear infinite;
+}
+
+.block_concerts:hover {
+    animation-play-state: paused;
+}
+
+.poster {
+    width: 24vw;
+    height: 100%;
+    display: inline-block;
+    margin-left: 3vw;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+}
+
+.text {
+    /* position: absolute; */
+    opacity: 0%;
+    margin: -10vw 3vw;
+    /* top: 0;
+    left: 0; */
+    transition: all 0.3s;
+}
+
+.poster:hover .image {
+    filter: blur(0.3vw);
+}
+
+.poster:hover .text {
+    opacity: 100%;
+}
+
+.ber {
+    background-image: url("../images/poster_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ike {
+    background-image: url("../images/poster_2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ech {
+    background-image: url("../images/poster_3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.durt {
+    background-image: url("../images/poster_4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#container-lectures {
+    width: 100vw;
+    height: 45.2vw;
+    background-color: #121212;
+    margin-top: 3.2vw;
+    padding-top: 2vw;
+    overflow: hidden;
+}
+
+.block_lectures {
+    display: flex;
+    width: 272.5vw;
+    height: 34vw;
+    animation: row-reverse 10s linear infinite;
+}
+
+.block_lectures:hover {
+    animation-play-state: paused;
+}
+
+.bish {
+    background-image: url("../images/poster_5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.alty {
+    background-image: url("../images/poster_6.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.zhide {
+    background-image: url("../images/poster_7.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sigez {
+    background-image: url("../images/poster_8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tugyz {
+    background-image: url("../images/poster_9.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#container-karaoke {
+    width: 100vw;
+    height: 45.2vw;
+    background-color: #121212;
+    margin-top: 1.2vw;
+    padding-top: 3vw;
+    overflow: hidden;
+}
+
+.block_karaoke {
+    display: flex;
+    width: 272.5vw;
+    height: 34vw;
+    animation: row 10s linear infinite;
+}
+
+.oon {
+    background-image: url("../images/poster_10.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.oonber {
+    background-image: url("../images/poster_11.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.oonike {
+    background-image: url("../images/poster_12.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.oonech {
+    /* margin-top: 3vw; */
+    background-image: url("../images/poster_13.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.oondurt {
+    background-image: url("../images/poster_14.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.mailing-list {
+    width: 100%;
+    height: 27vw;
+    padding: 1.7vw 2.9vw; 
+}
+
+.mailing-list p {
+    margin-top: 1.5vw
+}
+
+input {
+    padding-left: 1.3vw;
+    font-size: 1vw;
+    width: 22.4vw;
+    height: 5vw;
+    margin-top: 1.8vw;
+    background-color: #121212;
+    border: 0.2vw solid #F0F0F0;
+    border-radius: 0.5vw;
+    outline: none;
+    color: #F0F0F0;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 2.1vw;
+}
+
+input:nth-of-type(2) {
+    margin-left: 1.2vw;
+}
+
+input::placeholder {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+    font-size: 2.1vw;
+}
+
+.button {
+    width: 20vw;
+    height: 5vw;
+    margin-left: 1.2vw;
+    padding-top: 1.5vw;
+}
+

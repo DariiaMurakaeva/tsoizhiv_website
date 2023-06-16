@@ -1,0 +1,14 @@
+@font-face {
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Regular.woff") format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Semibold.woff") format("opentype");
+    font-display: swap;
+}
