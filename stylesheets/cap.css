@@ -26,6 +26,10 @@ section:nth-of-type(1) {
     transition: all 0.3s;
 }
 
+.tovar-black {
+    background-image: url("../images/cap_black.png");
+}
+
 .tovar:hover {
     transform: scale(1.05);
 }
@@ -54,12 +58,12 @@ section:nth-of-type(1) {
 }
 
 .white {
-    background-color: #fff;
+    background-color: #000;
+    border: 0.2vw solid #F0F0F0;
 }
 
 .black {
-    background-color: #000;
-    border: 0.2vw solid #F0F0F0;
+    background-color: #F0F0F0;
     margin-left: 2vw;
 }
 
@@ -127,4 +131,29 @@ section:nth-of-type(2) {
 
 footer {
     margin-top: 2vw;
+}
+
+@media only screen and (max-device-width: 834px) {
+    .products-rec {
+        flex-wrap: wrap
+    }
+    .pins {
+        width: 41vw;
+        height: 41vw;
+    }
+    .book {
+        width: 40vw;
+        height: 40vw;
+    }
+    .hoodie {
+        width: 40vw;
+        height: 40vw;
+    }
+    .notebook {
+        width: 40vw;
+        height: 32vw;
+    }
+    footer {
+        margin-top: 4vw;
+    }
 }
