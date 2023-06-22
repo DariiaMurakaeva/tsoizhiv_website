@@ -31,6 +31,15 @@ $(document).ready(function(){
         $('#added-bag').append(rez);
         setTimeout( function() { rez.remove(); }, 500);
     });
+    
+    // Добавление в корзину со страницы товара
+    $(".btn-tovar").click(function(){
+        $(".ghost-tovar").removeClass("none");
+        $(".ghost-tovar").addClass("fly-3");
+        setTimeout(function(){
+            $('.ghost-tovar').addClass("none");
+        }, 2000);
+    });
 
     // Регистрация на мероприятия
     $(".poster-lectures, .poster-karaoke").click(function(){
@@ -53,7 +62,7 @@ $(document).ready(function(){
         $(".ghost-afisha").addClass("fly");
         setTimeout(function(){
             $('.ghost-afisha').addClass("none");
-        }, 1500);
+        }, 2000);
     });
 
     // Покупка билета, привидение
