@@ -13,21 +13,12 @@ section {
 .info {
     width: 30vw;
     height: 56vw;
-    /* background-color: gold; */
 }
 
-/* .zal {
-    width: 54.6vw;
-    height: 56vw;
-    background-color: pink;
-} */
-
 .zal {
-    /* width: 50.7vw;
-    height: 52vw; */
+    height: 52vw; 
     width: 48.8vw;
     height: 50vw;
-    /* background-color: pink; */
 }
 
 
@@ -61,28 +52,16 @@ section {
 }
 
 .info p:nth-of-type(1) {
-    margin-top: 1vw;
+    margin-top: 2vw;
 }
 
 .info p:nth-of-type(2) {
-    margin: -2.4vw 7vw;
+    margin: -2.5vw 7vw;
 }
 
-.info p:nth-of-type(3) {
-    margin-top: 5.4vw;
-}
-
-.info p:nth-of-type(4) {
-    margin: -2.4vw 8vw;
-}
-
-.info p:nth-of-type(5) {
-    margin-top: 3vw;
-}
 
 .seats {
     width: 100%;
-    /* height: 47.3vw; */
     height: 45.5vw;
     background-color: #121212;
     display: grid;
@@ -253,9 +232,15 @@ li:nth-of-type(5)::before {
     padding: 1vw 2.8vw;
 }
 
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 input {
     padding-left: 1.3vw;
-    width: 30.4vw;
+    width: 20vw;
     height: 5vw;
     margin-top: 1.8vw;
     background-color: #121212;
@@ -278,16 +263,45 @@ input::placeholder {
     font-size: 2.1vw;
 }
 
-::-webkit-calendar-picker-indicator {
-    background-image: url('../images/calendar.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-right: 1vw;
+.button {
+    width: 20vw;
+    height: 5vw;
+    margin-top: 1.8vw;
+    margin-left: 1.2vw;
+    padding-top: 1.5vw;
 }
 
-.button {
-    width: 22.8vw;
-    height: 3.8vw;
-    margin-top: 3.8vw;
-    padding-top: 0.9vw;
+.none {
+    display: none;
+}
+
+.ghost-ticket {
+    width: 30vw;
+    height: 21vw;
+    position: absolute;
+    left: 14vw;
+    top: 92vw;
+    background-image: url("../images/ghost-afisha.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: ghost-fly-2 1.5s linear;
+    animation-play-state: paused;
+}
+
+.fly-2 {
+    animation-play-state: running;
+}
+
+
+@keyframes ghost-fly-2 {
+    0% {
+        top: 92vw;
+    }
+
+    50%{
+        top: 78vw;
+    } 
+    100% {
+        top: 92vw;
+    }
 }
