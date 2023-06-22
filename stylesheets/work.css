@@ -68,3 +68,23 @@ section {
 footer {
     margin-top: 12vw;
 } 
+
+@media only screen and (max-device-width: 450px) {
+    .ghost {
+        display: none;
+    }
+    .img {
+        width: 40vw;
+        height: 44vw;
+        margin-top: -72vw;
+        background-image: url("../images/work_mobile.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .text {
+        margin-top: 15vw;
+    }
+    section {
+        flex-direction: column;
+    }
+}
