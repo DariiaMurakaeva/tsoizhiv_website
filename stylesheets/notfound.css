@@ -1,0 +1,549 @@
+body > div {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.center {
+    position: relative;
+    width: 30vw;
+    height: 20vw;
+    margin: 10vw auto;
+    background-image: url("../images/404_main.png");
+    filter: blur(0.6vw);
+    transition: all 0.4s;
+}
+
+.button {
+    width: 25vw;
+    height: 4vw;
+    padding-top: 1vw;
+    position: relative;
+    left: 38%;
+    top: -6vw;
+    z-index: 100;
+}
+
+.center:hover {
+    filter: blur(0);
+}
+.second-1 {
+    width: 23vw;
+    height: 5.4vw;
+    top: 23.3vw;
+    left: 7vw;
+    background-image: url("../images/404_2.png");
+    animation: move6 5s linear alternate infinite;
+}
+
+.second-1:hover {
+    animation-play-state: paused;
+}
+
+.first-1 {
+    width: 22vw;
+    height: 12vw;
+    background-image: url("../images/404_1.png");
+    top: 13vw;
+    left: 22vw;
+    transform: rotate(15deg);
+    animation: move9 5s linear alternate infinite;
+}
+
+.first-1:hover, .second-1:hover, .third-1:hover, .second-2:hover, .third-2:hover, .second-3:hover, .first-2:hover, .third-3:hover, .first-3:hover, .third-4:hover, .second-4hover, .second-5hover, .third-5:hover, .first-4hover, .second-7hover, .second-8hover, .third-8:hover, .third-9:hover, .third-10:hover, .first-6:hover  {
+    animation-play-state: paused;
+}
+
+.third-1 {
+    width: 17vw;
+    height: 6vw;
+    background-image: url("../images/404_3.png");
+    top: 7vw;
+    left: 35vw;
+    transform: rotate(-12deg);
+    animation: move15 7s linear alternate infinite;
+}
+
+.second-2 {
+    width: 16vw;
+    height: 5vw;
+    top: 11.3vw;
+    left: 3vw;
+    background-image: url("../images/404_2.png");
+    transform: rotate(22deg);
+    animation: move17 6s linear alternate infinite;
+}
+
+.third-2 {
+    width: 21vw;
+    height: 6vw;
+    background-image: url("../images/404_3.png");
+    top: 18vw;
+    left: 2vw;
+    transform: rotate(-12deg);
+    animation: move21 7.5s linear alternate infinite;
+}
+
+.second-3 {
+    width: 17vw;
+    height: 5vw;
+    top: 12.3vw;
+    left: 42vw;
+    background-image: url("../images/404_2.png");
+    transform: rotate(2deg);
+    animation: move13 6s linear alternate infinite;
+}
+
+.first-2 {
+    width: 11vw;
+    height: 5vw;
+    background-image: url("../images/404_1.png");
+    top: 10vw;
+    left: 62vw;
+    transform: rotate(-35deg);
+    animation: move5 6.5s linear alternate infinite;
+}
+
+.third-3 {
+    width: 22vw;
+    height: 6vw;
+    background-image: url("../images/404_3.png");
+    top: 23vw;
+    left: 45vw;
+    transform: rotate(-12deg);
+    animation: move1 7s linear alternate infinite;
+}
+
+.first-3 {
+    width: 27vw;
+    height: 11vw;
+    background-image: url("../images/404_1.png");
+    top: 15vw;
+    left: 67vw;
+    transform: rotate(12deg);
+    animation: move2 6s linear alternate infinite;
+}
+
+.third-4 {
+    width: 18vw;
+    height: 5vw;
+    background-image: url("../images/404_3.png");
+    top: 13vw;
+    left: 79vw;
+    transform: rotate(-12deg);
+    animation: move16 5.5s linear alternate infinite;
+}
+
+.second-1:hover {
+    animation-play-state: running;
+}
+
+.second-4 {
+    width: 17vw;
+    height: 5vw;
+    top: 32vw;
+    left: 2vw;
+    background-image: url("../images/404_2.png");
+    transform: rotate(-8deg);
+    animation: move12 6s linear alternate infinite;
+}
+
+.second-5 {
+    width: 21vw;
+    height: 7vw;
+    top: 26.3vw;
+    left: 76vw;
+    background-image: url("../images/404_2.png");
+    transform: rotate(-18deg);
+    animation: move11 6s linear alternate infinite;
+}
+
+.third-5 {
+    width: 14vw;
+    height: 4vw;
+    background-image: url("../images/404_3.png");
+    top: 38vw;
+    left: 6vw;
+    transform: rotate(18deg);
+    animation: move20 6.5s linear alternate infinite;
+}
+
+.first-4 {
+    width: 27vw;
+    height: 11vw;
+    background-image: url("../images/404_1.png");
+    top: 38vw;
+    left: 12vw;
+    transform: rotate(-9deg);
+    animation: move4 7s linear alternate infinite;
+}
+
+.second-7 {
+    width: 19vw;
+    height: 7vw;
+    top: 48.3vw;
+    left: 28vw;
+    background-image: url("../images/404_2.png");
+    transform: rotate(-28deg);
+    animation: move14 8s linear alternate infinite;
+}
+
+.second-8 {
+    width: 16vw;
+    height: 4vw;
+    top: 42.3vw;
+    left: 50vw;
+    background-image: url("../images/404_2.png");
+    transform: rotate(-28deg);
+    animation: move18 6.5s linear alternate infinite; 
+}
+
+.third-8 {
+    width: 23vw;
+    height: 6vw;
+    background-image: url("../images/404_3.png");
+    top: 48vw;
+    left: 39vw;
+    transform: rotate(-5deg);
+    animation: move8 6s linear alternate infinite;
+}
+
+.third-9 {
+    width: 22vw;
+    height: 6vw;
+    background-image: url("../images/404_3.png");
+    top: 37vw;
+    left: 64vw;
+    transform: rotate(15deg);
+    animation: move3 8s linear alternate infinite;
+}
+
+.third-10 {
+    width: 13vw;
+    height: 3vw;
+    background-image: url("../images/404_3.png");
+    top: 32vw;
+    left: 84vw;
+    transform: rotate(-45deg);
+    animation: move19 7s linear alternate infinite;
+}
+
+.first-6 {
+    width: 10vw;
+    height: 4vw;
+    background-image: url("../images/404_1.png");
+    top: 41vw;
+    left: 87vw;
+    transform: rotate(41deg);
+    animation: move7 8.5s linear alternate infinite;
+}
+
+@keyframes blur {
+    0% {filter:blur(0)}
+    50% {filter:blur(0.4vw)}
+    100% {filter:blur(0)}
+}
+
+@keyframes blink {
+    from {filter: blur(0)}
+    to {filter:blur(0.6vw)}
+}
+
+@keyframes move1 {
+    from {
+        top: 6vw;
+        left: 86vw;
+        transform: rotate(-28deg);
+    }
+
+    to {
+        top: 4vw;
+        left: 88vw;
+        transform: rotate(-24deg);
+        filter: blur(0.2vw);
+    }
+}
+
+@keyframes move2 {
+    from {
+        top: 15vw;
+        left: 67vw;
+        transform: rotate(12deg);
+    }
+
+    to {
+        top: 16vw;
+        left: 64vw;
+        transform: rotate(14deg);
+        filter: blur(0.2vw);
+    }
+}
+
+@keyframes move3 {
+    from {
+        top: 37vw;
+        left: 67vw;
+        transform: rotate(15deg);
+    }
+
+    to {
+        top: 39vw;
+        left: 69vw;
+        transform: rotate(12deg);
+        filter: blur(0.3vw);
+    }
+}
+
+@keyframes move4 {
+    from {
+        top: 38vw;
+        left: 4vw;
+        transform: rotate(-9deg);
+    }
+
+    to {
+        top: 39vw;
+        left: 6vw;
+        transform: rotate(-12deg);
+        filter: blur(0.3vw);
+    }
+}
+
+@keyframes move5 {
+    from {
+        top: 10vw;
+        left: 62vw;
+        transform: rotate(-35deg);
+    }
+
+    to {
+        top: 9vw;
+        left: 63vw;
+        transform: rotate(-38deg);
+        filter: blur(0.2vw);
+    }
+}
+
+@keyframes move6 {
+    from {
+        top: 23.3vw;
+        left: 17vw;
+    }
+
+    to {
+        top: 23.3vw;
+        left: 15vw;
+        transform: rotate(-3deg);
+        filter: blur(0.4vw);
+    }
+}
+
+@keyframes move7 {
+    from {
+        top: 41vw;
+        left: 90vw;
+        transform: rotate(41deg);
+    }
+
+    to {
+        top: 43vw;
+        left: 92vw;
+        transform: rotate(43deg);
+        filter: blur(0.2vw);
+    }
+}
+
+@keyframes move8 {
+    from {
+        top: 48vw;
+        left: 39vw;
+        transform: rotate(-5deg);
+    }
+
+    to {
+        top: 50vw;
+        left: 42vw;
+        transform: rotate(-3deg);
+        filter: blur(0.2vw);
+    }
+}
+
+@keyframes move9 {
+    from {
+        top: 7vw;
+        left: 18vw;
+        transform: rotate(15deg);
+    }
+
+    to {
+        top: 8vw;
+        left: 20vw;
+        transform: rotate(18deg);
+        filter: blur(0.2vw);
+    }
+}
+
+@keyframes move11 {
+    from {
+        top: 22.3vw;
+        left: 77vw;
+        transform: rotate(-18deg);
+    }
+
+    to {
+        top: 24.3vw;
+        left: 76vw;
+        transform: rotate(-16deg);
+        filter: blur(0.2vw);
+    }
+}
+
+@keyframes move12 {
+    from {
+        top: 32vw;
+        left: 2vw;
+        transform: rotate(-8deg);
+    }
+
+    to {
+        top: 33vw;
+        left: 2.5vw;
+        transform: rotate(-6deg);
+        filter: blur(0.2vw);
+    }
+}
+
+@keyframes move13 {
+    from {
+        top: 12.3vw;
+        left: 42vw;
+        transform: rotate(2deg);
+    }
+
+    to {
+        top: 13.3vw;
+        left: 42.5vw;
+        transform: rotate(-1deg);
+        filter: blur(0.2vw);
+    }
+}
+
+@keyframes move14 {
+    from {
+        top: 43.3vw;
+        left: 20vw;
+        transform: rotate(-28deg);
+    }
+
+    to {
+        top: 41.3vw;
+        left: 22vw;
+        transform: rotate(-25deg);
+        filter: blur(0.3vw);
+    }
+}
+
+@keyframes move15 {
+    from {
+        top: 5vw;
+        left: 37vw;
+        transform: rotate(-12deg);
+    }
+
+    to {
+        top: 4vw;
+        left: 35vw;
+        transform: rotate(-16deg);
+        filter: blur(0.3vw);
+    }
+}
+
+@keyframes move16 {
+    from {
+        top: 15vw;
+        left: 79vw;
+        transform: rotate(25deg);
+    }
+
+    to {
+        top: 17vw;
+        left: 77vw;
+        transform: rotate(23deg);
+        filter: blur(0.3vw);
+    }
+}
+
+@keyframes move17 {
+    from {
+        top: 11.3vw;
+        left: 3vw;
+        transform: rotate(22deg);
+    }
+
+    to {
+        top: 13vw;
+        left: 4vw;
+        transform: rotate(25deg);
+        filter: blur(0.3vw);
+    }
+}
+
+@keyframes move18 {
+    from {
+        top: 48.3vw;
+        left: 74vw;
+        transform: rotate(-28deg);
+    }
+
+    to {
+        top: 46.3vw;
+        left: 76vw;
+        transform: rotate(-26deg);
+        filter: blur(0.3vw);
+    }
+}
+
+
+@keyframes move19 {
+    from {
+        top: 30vw;
+        left: 84vw;
+        filter: blur(0.2vw);
+    }
+
+    to {
+        top: 32vw;
+        left: 83vw;
+        filter: blur(0vw);
+    }
+}
+
+@keyframes move20 {
+    from {
+        top: 36vw;
+        left: 21vw;
+        transform: rotate(18deg);
+    }
+
+    to {
+        top: 37vw;
+        left: 24vw;
+        transform: rotate(15deg);
+        filter: blur(0.2vw);
+    }
+}
+
+
+@keyframes move21 {
+    from {
+        top: 18vw;
+        left: 2vw;
+        transform: rotate(-12deg);
+    }
+    
+    to {
+        top: 16vw;
+        left: 3vw;
+        transform: rotate(-6deg);
+        filter: blur(0.2vw);
+    }
+}
