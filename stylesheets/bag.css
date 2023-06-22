@@ -26,6 +26,10 @@ section:nth-of-type(1) {
     transition: all 0.3s;
 }
 
+.tovar-black {
+    background-image: url("../images/bag_black.png");
+}
+
 .tovar:hover {
     transform: scale(1.05);
 }
@@ -33,7 +37,6 @@ section:nth-of-type(1) {
 .about {
     width: 42vw;
     height: 35vw;
-    /* background-color: gold; */
     margin-left: 2.3vw;
 }
 
@@ -53,12 +56,12 @@ section:nth-of-type(1) {
     cursor: pointer;
 }
 .white {
-    background-color: #fff;
+    background-color: #000;
+    border: 0.2vw solid #F0F0F0;
 }
 
 .black {
-    background-color: #000;
-    border: 0.2vw solid #F0F0F0;
+    background-color: #fff;
     margin-left: 2vw;
 }
 
@@ -78,9 +81,8 @@ p {
 }
 
 section:nth-of-type(2) {
-    margin-top: 7.2vw;
+    margin-top: 9.2vw;
     padding: 0vw 3vw; 
-    /* background-color: green; */
 }
 
 .products-rec {
@@ -127,3 +129,27 @@ section:nth-of-type(2) {
 footer {
     margin-top: 2vw;
 }
+
+@media only screen and (max-device-width: 834px) {
+    .products-rec {
+        flex-wrap: wrap
+    }
+    .pins {
+        width: 41vw;
+        height: 41vw;
+    }
+    .book {
+        width: 40vw;
+        height: 40vw;
+    }
+    .cap {
+        width: 40vw;
+        height: 40vw;
+    }
+    .notebook {
+        width: 40vw;
+        height: 34vw;
+    }
+}
+
+
