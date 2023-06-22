@@ -1,6 +1,6 @@
 * {
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; 
 }
 .first-img {
     margin-top: 3vw;
@@ -242,4 +242,18 @@ footer {
 
 .block-zdanie h1:hover, .block-second h1:hover, .block-stage h1:hover, .block-zo h1:hover, .block-rep h1:hover {
     color: #7EB6CE;
+}
+
+@media only screen and (max-device-width: 460px) and (orientation: portrait) {
+    body {
+        background-image: url("../images/about-mobile.png");
+        opacity: 0.4;
+    }
+    .first-img {
+        margin-top: 4vw;
+        padding-top: 22vw;
+    }
+    .text-zdanie {
+        width: 81vw
+    }
 }
