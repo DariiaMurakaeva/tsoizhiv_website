@@ -9,17 +9,10 @@
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="stylesheets/ticket_1.css">
     <style media = "screen">
-        /* body::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width:100%;
-        height: 3046px;
-        background: url("images/1440_tickets.png");
-        opacity: 0.3;
-        } */
     </style> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="javascripts/all.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>  
 </head>
 <body>
     <header>
@@ -29,6 +22,7 @@
             <a href="shop.html" class="second">магазин</a>
             <a href="work.html" class="third">вакансии</a>
             <a href="about.html" class="fourth">о нас</a>
+            <div class="menu"></div>
         </nav>
     </header>
     <section>
@@ -37,9 +31,6 @@
             <h2>Концерт<br>Егора Летова</h2>
             <p>26/07</p>
             <p>20:00</p>
-            <p>Ряд:</p>
-            <p>Место:</p>
-            <p>Сумма:</p>
         </div>
         <div class="zal">
             <div class="seats">
@@ -156,7 +147,7 @@
             <input type="text" name="" id="" placeholder="Имя и фамилия">
             <input type="date" name="" id="" placeholder="Дата рождения">
             <input type="email" name="" id="" placeholder="e-mail">
-            <a class="button" href="">Оформить заказ</a>
+            <div class="button btn-ticket" href="">Оформить заказ</div>
         </form>
     </div>
     <footer>
@@ -164,5 +155,6 @@
             <p>Б22ДЗ10</p>
             <p>HSE Art and Design</p>
     </footer>
+    <div class="ghost-ticket none"></div>
 </body>
 </html>
