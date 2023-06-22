@@ -157,3 +157,38 @@ footer {
         margin-top: 4vw;
     }
 }
+
+
+.ghost-tovar {
+    width: 30vw;
+    height: 21vw;
+    position: absolute;
+    left: 100vw;
+    top: 30vw;
+    background-image: url("../images/ghost-tovar.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: ghost-fly-3 2s linear;
+    animation-play-state: paused;
+}
+
+.fly-3 {
+    animation-play-state: running;
+}
+
+.none {
+    display: none;
+}
+
+@keyframes ghost-fly-3 {
+    0% {
+        left: 100vw;
+    }
+
+    50%{
+        left: 78vw;
+    } 
+    100% {
+        left: 100vw;
+    }
+}
