@@ -93,12 +93,17 @@
 }
 
 .text {
-    /* position: absolute; */
-    opacity: 0%;
-    margin: -10vw 3vw;
-    /* top: 0;
-    left: 0; */
-    transition: all 0.3s;
+    position: absolute;
+    visibility: visible;
+    visibility: hidden;
+    margin-left: 3vw;
+    margin-top: -12vw;
+    z-index: 100;
+    width: 100%;
+}
+
+.text h3 {
+    margin-bottom: 1vw;
 }
 
 .poster:hover .image {
@@ -106,7 +111,11 @@
 }
 
 .poster:hover .text {
-    opacity: 100%;
+    visibility: visible;
+}
+
+.txt-blck h3, .txt-blck p {
+    color: #121212;
 }
 
 .ber {
@@ -147,6 +156,10 @@
     width: 272.5vw;
     height: 34vw;
     animation: row-reverse 10s linear infinite;
+}
+
+.poster-lectures, .poster-karaoke {
+    cursor: pointer;
 }
 
 .block_lectures:hover {
@@ -199,6 +212,10 @@
     animation: row 10s linear infinite;
 }
 
+.block_karaoke:hover {
+    animation-play-state: paused;
+}
+
 .oon {
     background-image: url("../images/poster_10.png");
     background-size: contain;
@@ -218,7 +235,6 @@
 }
 
 .oonech {
-    /* margin-top: 3vw; */
     background-image: url("../images/poster_13.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -240,12 +256,20 @@
     margin-top: 1.5vw
 }
 
+.list-container {
+    width: 74vw;
+    height: 5vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.8vw;
+}
+
 input {
     padding-left: 1.3vw;
     font-size: 1vw;
     width: 22.4vw;
     height: 5vw;
-    margin-top: 1.8vw;
+    /* margin-top: 1.8vw; */
     background-color: #121212;
     border: 0.2vw solid #F0F0F0;
     border-radius: 0.5vw;
@@ -266,9 +290,218 @@ input::placeholder {
 }
 
 .button {
+    width: 22.4vw;
+    height: 4.6vw;
+    padding-top: 1.2vw;
+}
+
+.button-reg {
+    display: inline-block;
+    border-radius: 0.6vw;
+    text-decoration: none;
+    font-size: 2.1vw;
+    font-weight: 600;
+    color: #121212;
+    background-color: #F0F0F0;
+    text-align: center;
+    transition: all 0.3s;
     width: 20vw;
-    height: 5vw;
+    height: 4vw;
     margin-left: 1.2vw;
-    padding-top: 1.5vw;
+    margin-top: 4vw;
+    padding-top: 0.9vw;
+}
+
+.button-reg:hover {
+    color: #F0F0F0;
+    background-color: #7EB6CE;
+}
+
+.forma {
+    display: block;
+    width: 62vw;
+    height: 52vw;
+    background-color: #121212;
+    border: 0.2vw solid #F0F0F0;
+    position: fixed;
+    top: 2.5vw;
+    left: calc( 50% - 31vw);
+}
+
+.forma h2 {
+    margin: 1vw 2vw;
+}
+
+.forma p {
+    margin: 1vw 2vw;
+}
+
+.forma p:nth-of-type(2) {
+    margin-top: 2vw;
+}
+
+.data {
+    width: 100%;
+    height: 14.2vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0vw;
+}
+
+.data input:nth-of-type(1) {
+    margin-top: 0vw;
+}
+
+.data input[type="text"], .forma input[type="date"], .forma input[type="email"] {
+    height: 3.5vw;
+    font-size: 1.6vw;
+    margin-left: 2vw;
+}
+
+.forma ul {
+    margin: -1.6vw 2vw;
+}
+
+.container-checkbox {
+    width: 21vw;
+    height: 18vw;
+    background-color: green;
+}
+
+.block-check {
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type="checkbox"] {
+    /* appearance: none;
+    -webkit-appearance: none; */
+    height: 2vw;
+    width: 2vw;
+    background-color: #121212;
+    border: 0.2vw solid #F0F0F0;
+    border-radius: 0.3vw;
+    cursor: pointer;
+    vertical-align: bottom;
+}
+
+ul input:checked ~ .checkmark {
+    background-color: #7EB6CE;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+label {
+    color: #F0F0F0;
+    font-size: 2.1vw;
+    margin-top: 2vw;
+    font-family: 'Gilroy', sans-serif;
+    cursor: pointer;
+    word-wrap: break-word;
+}
+
+.forma .button {
+    margin: 4vw 2vw;
+    height: 3.5vw;
+    padding-top: 0.8vw;
+    width: 16vw;
+    cursor: pointer;
+}
+
+.cross {
+    width: 3vw;
+    height: 3vw;
+    background-image: url("../images/cross-icon.png");;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -48.6vw;
+    margin-left: 57vw;
+    cursor: pointer;
+}
+
+.forma-done {
+    display: block;
+    width: 62vw;
+    height: 34vw;
+    background-color: #121212;
+    border: 0.2vw solid #F0F0F0;
+    position: fixed;
+    top: 11.5vw;
+    left: calc( 50% - 31vw);
+}
+
+.cross-done {
+    width: 3vw;
+    height: 3vw;
+    background-image: url("../images/cross-icon.png");;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 1.5vw;
+    margin-left: 57vw;
+    cursor: pointer;
+}
+
+.ghost-img {
+    width: 38vw;
+    height: 28vw;
+    margin: 0vw 3vw;
+    background-image: url("../images/ghost-afisha.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ghost-afisha {
+    width: 30vw;
+    height: 21vw;
+    position: absolute;
+    left: 20vw;
+    top: 197vw;
+    background-image: url("../images/ghost-afisha_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: ghost-fly 1.5s linear;
+    animation-play-state: paused;
+}
+
+.fly {
+    animation-play-state: running;
+}
+
+@keyframes ghost-fly {
+    0% {
+        top: 197vw;
+    }
+
+    50%{
+        top: 180vw;
+    } 
+    100% {
+        top: 197vw;
+    }
+}
+
+.none {
+    display: none;
+}
+
+@media only screen and (max-device-width: 460px) and (orientation: portrait) {
+    .workspace {
+        display: none;
+    }
+
+    .frame {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50%;
+        width: 61vw;
+        height: 36vw;
+        background-image: url("../images/frame.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
 }
 
