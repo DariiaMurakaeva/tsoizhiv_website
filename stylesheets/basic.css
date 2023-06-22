@@ -40,6 +40,11 @@ header {
     padding: 1.2vw 2.8vw;
 }
 
+header a img {
+    width: 5.2vw;
+    height: 5.2vw;
+}
+
 nav a {
     position: relative;
     font-size: 1.53vw;
@@ -77,6 +82,7 @@ a:hover:after {
     background-color: #F0F0F0;
     text-align: center;
     transition: all 0.3s;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -107,6 +113,14 @@ footer p:nth-of-type(3) {
     margin-right: 3vw; 
 }
 
+::-webkit-calendar-picker-indicator {
+    background-image: url('../images/calendar.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 1vw;
+}
+
+
 @keyframes row {
     0% {transform: translateX(0)}
     100% {transform: translateX(-50%)}
@@ -115,4 +129,20 @@ footer p:nth-of-type(3) {
 @keyframes row-reverse {
     0% {transform: translateX(-50%)}
     100% {transform: translateX(0)}
+}
+
+@media only screen and (max-device-width: 415px) and (orientation: portrait) {
+    nav a {
+        display: none;
+    }
+
+    .menu {
+        display: inline-block;
+        width: 4vw;
+        height: 4vw;
+        margin-top: 2vw;
+        background-image: url("../images/icon_menu.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 }
