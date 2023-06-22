@@ -26,6 +26,10 @@ section:nth-of-type(1) {
     transition: all 0.3s;
 }
 
+.tovar-black {
+    background-image: url("../images/pins_black.png");
+}
+
 .tovar:hover {
     transform: scale(1.05);
 }
@@ -51,13 +55,13 @@ section:nth-of-type(1) {
     border-radius: 50%;
     cursor: pointer;
 }
-.blue {
-    background-color: #7EB6CE;
+.white {
+    background-color: #000000;
+    border: 0.2vw solid #F0F0F0;
 }
 
 .black {
-    background-color: #000;
-    border: 0.2vw solid #F0F0F0;
+    background-color: #7EB6CE;
     margin-left: 2vw;
 }
 
@@ -125,4 +129,26 @@ section:nth-of-type(2) {
 
 footer {
     margin-top: 2vw;
+}
+
+@media only screen and (max-device-width: 834px) {
+    .products-rec {
+        flex-wrap: wrap
+    }
+    .hoodie {
+        width: 41vw;
+        height: 41vw;
+    }
+    .book {
+        width: 40vw;
+        height: 40vw;
+    }
+    .cap {
+        width: 40vw;
+        height: 40vw;
+    }
+    .notebook {
+        width: 40vw;
+        height: 32vw;
+    }
 }
