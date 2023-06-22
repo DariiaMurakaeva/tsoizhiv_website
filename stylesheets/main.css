@@ -11,7 +11,6 @@ body > div {
     background-image: url("../images/sign_main.png");
     filter: blur(0.6vw);
     transition: all 0.4s;
-    /* animation: blink 10s linear alternate infinite; */
 }
 
 .center:hover {
@@ -23,9 +22,7 @@ body > div {
     top: 23.3vw;
     left: 7vw;
     background-image: url("../images/sign_2.png");
-    animation: move6 4s linear alternate infinite;
-    /* animation: blur 3s linear infinite;
-    animation-play-state: paused; */
+    animation: move6 5s linear alternate infinite;
 }
 
 .second-1:hover {
@@ -39,7 +36,7 @@ body > div {
     top: 13vw;
     left: 22vw;
     transform: rotate(15deg);
-    animation: move9 3s linear alternate infinite;
+    animation: move9 5s linear alternate infinite;
 }
 
 .first-1:hover, .second-1:hover, .third-1:hover, .second-2:hover, .third-2:hover, .second-3:hover, .first-2:hover, .third-3:hover, .first-3:hover, .third-4:hover, .second-4hover, .second-5hover, .third-5:hover, .first-4hover, .second-7hover, .second-8hover, .third-8:hover, .third-9:hover, .third-10:hover, .first-6:hover  {
@@ -53,7 +50,7 @@ body > div {
     top: 7vw;
     left: 35vw;
     transform: rotate(-12deg);
-    animation: move15 3.5s linear alternate infinite;
+    animation: move15 7s linear alternate infinite;
 }
 
 .second-2 {
@@ -63,7 +60,7 @@ body > div {
     left: 3vw;
     background-image: url("../images/sign_2.png");
     transform: rotate(22deg);
-    animation: move17 3s linear alternate infinite;
+    animation: move17 6s linear alternate infinite;
 }
 
 .third-2 {
@@ -73,7 +70,7 @@ body > div {
     top: 18vw;
     left: 2vw;
     transform: rotate(-12deg);
-    animation: move21 3.5s linear alternate infinite;
+    animation: move21 7.5s linear alternate infinite;
 }
 
 .second-3 {
@@ -83,7 +80,7 @@ body > div {
     left: 42vw;
     background-image: url("../images/sign_2.png");
     transform: rotate(2deg);
-    animation: move13 5s linear alternate infinite;
+    animation: move13 6s linear alternate infinite;
 }
 
 .first-2 {
@@ -93,7 +90,7 @@ body > div {
     top: 10vw;
     left: 62vw;
     transform: rotate(-35deg);
-    animation: move5 3.5s linear alternate infinite;
+    animation: move5 6.5s linear alternate infinite;
 }
 
 .third-3 {
@@ -103,7 +100,7 @@ body > div {
     top: 23vw;
     left: 45vw;
     transform: rotate(-12deg);
-    animation: move1 6s linear alternate infinite;
+    animation: move1 7s linear alternate infinite;
 }
 
 .first-3 {
@@ -113,7 +110,7 @@ body > div {
     top: 15vw;
     left: 67vw;
     transform: rotate(12deg);
-    animation: move2 3s linear alternate infinite;
+    animation: move2 6s linear alternate infinite;
 }
 
 .third-4 {
@@ -123,7 +120,7 @@ body > div {
     top: 13vw;
     left: 79vw;
     transform: rotate(-12deg);
-    animation: move16 5s linear alternate infinite;
+    animation: move16 5.5s linear alternate infinite;
 }
 
 .second-1:hover {
@@ -137,7 +134,7 @@ body > div {
     left: 2vw;
     background-image: url("../images/sign_2.png");
     transform: rotate(-8deg);
-    animation: move12 3s linear alternate infinite;
+    animation: move12 6s linear alternate infinite;
 }
 
 .second-5 {
@@ -147,7 +144,7 @@ body > div {
     left: 76vw;
     background-image: url("../images/sign_2.png");
     transform: rotate(-18deg);
-    animation: move11 4s linear alternate infinite;
+    animation: move11 6s linear alternate infinite;
 }
 
 .third-5 {
@@ -157,7 +154,7 @@ body > div {
     top: 38vw;
     left: 6vw;
     transform: rotate(18deg);
-    animation: move20 3.5s linear alternate infinite;
+    animation: move20 6.5s linear alternate infinite;
 }
 
 .first-4 {
@@ -167,7 +164,7 @@ body > div {
     top: 38vw;
     left: 12vw;
     transform: rotate(-9deg);
-    animation: move4 4s linear alternate infinite;
+    animation: move4 7s linear alternate infinite;
 }
 
 .second-7 {
@@ -177,7 +174,7 @@ body > div {
     left: 28vw;
     background-image: url("../images/sign_2.png");
     transform: rotate(-28deg);
-    animation: move14 5s linear alternate infinite;
+    animation: move14 8s linear alternate infinite;
 }
 
 .second-8 {
@@ -187,7 +184,7 @@ body > div {
     left: 50vw;
     background-image: url("../images/sign_2.png");
     transform: rotate(-28deg);
-    animation: move18 3.5s linear alternate infinite; 
+    animation: move18 6.5s linear alternate infinite; 
 }
 
 .third-8 {
@@ -197,7 +194,7 @@ body > div {
     top: 48vw;
     left: 39vw;
     transform: rotate(-5deg);
-    animation: move8 3s linear alternate infinite;
+    animation: move8 6s linear alternate infinite;
 }
 
 .third-9 {
@@ -207,7 +204,7 @@ body > div {
     top: 37vw;
     left: 64vw;
     transform: rotate(15deg);
-    animation: move3 4s linear alternate infinite;
+    animation: move3 8s linear alternate infinite;
 }
 
 .third-10 {
@@ -217,7 +214,7 @@ body > div {
     top: 32vw;
     left: 84vw;
     transform: rotate(-45deg);
-    animation: move19 3.5s linear alternate infinite;
+    animation: move19 7s linear alternate infinite;
 }
 
 .first-6 {
@@ -227,7 +224,7 @@ body > div {
     top: 41vw;
     left: 87vw;
     transform: rotate(41deg);
-    animation: move7 5s linear alternate infinite;
+    animation: move7 8.5s linear alternate infinite;
 }
 
 @keyframes blur {
@@ -249,9 +246,9 @@ body > div {
     }
 
     to {
-        top: 19vw;
-        left: 43vw;
-        transform: rotate(-3deg);
+        top: 21vw;
+        left: 44vw;
+        transform: rotate(-9deg);
         filter: blur(0.2vw);
     }
 }
@@ -265,7 +262,7 @@ body > div {
 
     to {
         top: 16vw;
-        left: 65vw;
+        left: 64vw;
         transform: rotate(14deg);
         filter: blur(0.2vw);
     }
@@ -279,9 +276,9 @@ body > div {
     }
 
     to {
-        top: 40vw;
+        top: 39vw;
         left: 66vw;
-        transform: rotate(-8deg);
+        transform: rotate(12deg);
         filter: blur(0.3vw);
     }
 }
@@ -294,9 +291,9 @@ body > div {
     }
 
     to {
-        top: 40vw;
-        left: 14vw;
-        transform: rotate(-16deg);
+        top: 39vw;
+        left: 13vw;
+        transform: rotate(-12deg);
         filter: blur(0.3vw);
     }
 }
@@ -309,7 +306,7 @@ body > div {
     }
 
     to {
-        top: 8vw;
+        top: 9vw;
         left: 63vw;
         transform: rotate(-38deg);
         filter: blur(0.3vw);
@@ -324,8 +321,8 @@ body > div {
 
     to {
         top: 23.3vw;
-        left: 3vw;
-        transform: rotate(-6deg);
+        left: 5vw;
+        transform: rotate(-3deg);
         filter: blur(0.4vw);
     }
 }
@@ -338,7 +335,7 @@ body > div {
     }
 
     to {
-        top: 44vw;
+        top: 43vw;
         left: 88vw;
         transform: rotate(43deg);
         filter: blur(0.2vw);
@@ -355,7 +352,7 @@ body > div {
     to {
         top: 50vw;
         left: 42vw;
-        transform: rotate(-1deg);
+        transform: rotate(-3deg);
         filter: blur(0.2vw);
     }
 }
@@ -368,9 +365,9 @@ body > div {
     }
 
     to {
-        top: 15vw;
-        left: 27vw;
-        transform: rotate(21deg);
+        top: 13vw;
+        left: 24vw;
+        transform: rotate(18deg);
         filter: blur(0.2vw);
     }
 }
@@ -384,8 +381,8 @@ body > div {
 
     to {
         top: 28.3vw;
-        left: 73vw;
-        transform: rotate(-15deg);
+        left: 75vw;
+        transform: rotate(-16deg);
         filter: blur(0.2vw);
     }
 }
@@ -398,9 +395,9 @@ body > div {
     }
 
     to {
-        top: 34vw;
+        top: 33vw;
         left: 2.5vw;
-        transform: rotate(-2deg);
+        transform: rotate(-6deg);
         filter: blur(0.2vw);
     }
 }
@@ -413,9 +410,9 @@ body > div {
     }
 
     to {
-        top: 14.3vw;
+        top: 13.3vw;
         left: 42.5vw;
-        transform: rotate(-4deg);
+        transform: rotate(-1deg);
         filter: blur(0.2vw);
     }
 }
@@ -430,7 +427,7 @@ body > div {
     to {
         top: 41.3vw;
         left: 35vw;
-        transform: rotate(-20deg);
+        transform: rotate(-25deg);
         filter: blur(0.3vw);
     }
 }
@@ -444,8 +441,8 @@ body > div {
 
     to {
         top: 6vw;
-        left: 32vw;
-        transform: rotate(-20deg);
+        left: 33vw;
+        transform: rotate(-16deg);
         filter: blur(0.3vw);
     }
 }
@@ -459,8 +456,8 @@ body > div {
 
     to {
         top: 14vw;
-        left: 76vw;
-        transform: rotate(-20deg);
+        left: 77vw;
+        transform: rotate(-15deg);
         filter: blur(0.3vw);
     }
 }
@@ -473,9 +470,9 @@ body > div {
     }
 
     to {
-        top: 14vw;
-        left: 5vw;
-        transform: rotate(27deg);
+        top: 13vw;
+        left: 4vw;
+        transform: rotate(25deg);
         filter: blur(0.3vw);
     }
 }
@@ -488,9 +485,9 @@ body > div {
     }
 
     to {
-        top: 38x.3vw;
-        left: 54vw;
-        transform: rotate(12deg);
+        top: 40.3vw;
+        left: 52vw;
+        transform: rotate(-26deg);
         filter: blur(0.3vw);
     }
 }
@@ -504,7 +501,7 @@ body > div {
     }
 
     to {
-        top: 34vw;
+        top: 32vw;
         left: 83vw;
         filter: blur(0vw);
     }
@@ -519,8 +516,8 @@ body > div {
 
     to {
         top: 39vw;
-        left: 4vw;
-        transform: rotate(2deg);
+        left: 5vw;
+        transform: rotate(15deg);
         filter: blur(0.2vw);
     }
 }
@@ -536,7 +533,7 @@ body > div {
     to {
         top: 16vw;
         left: 3vw;
-        transform: rotate(2deg);
+        transform: rotate(-6deg);
         filter: blur(0.2vw);
     }
 }
