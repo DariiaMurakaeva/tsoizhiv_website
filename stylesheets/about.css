@@ -245,15 +245,56 @@ footer {
 }
 
 @media only screen and (max-device-width: 460px) and (orientation: portrait) {
-    body {
-        background-image: url("../images/about-mobile.png");
-        opacity: 0.4;
+    .zdanie {
+        flex-direction: column;
+        height: 68vw;
+    }
+    .img-zdanie {
+        width: 100%;
+        height: 45vw;
     }
     .first-img {
         margin-top: 4vw;
         padding-top: 22vw;
     }
-    .text-zdanie {
-        width: 81vw
+    .floor2 {
+        flex-direction: column;
+        height: 66vw;
+        background-size: cover;
+    }
+    .img-second {
+        width: 100%;
+        height: 43vw;
+    }
+    .stage {
+        flex-direction: column;
+        height: 62vw;
+    }
+    .img-stage {
+        width: 100%;
+        height: 37vw;
+    }
+    .zo {
+        flex-direction: column;
+        height: 55vw;
+    }
+    .img-zo {
+        width: 100%;
+        height: 35vw;
+    }
+    .container-rep {
+        top: 4vw;
+    }
+    .rep {
+        margin-top: 6vw;
+        flex-direction: column;
+        height: 50vw
+    }
+    .img-rep {
+        width: 100%;
+        height: 33vw;
+    }
+    .more {
+        margin: 4vw 3vw;
     }
 }
