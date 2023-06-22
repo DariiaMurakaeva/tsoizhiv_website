@@ -105,3 +105,26 @@ section:nth-of-type(2) {
 footer {
     margin-top: 2vw;
 }
+
+@media only screen and (max-device-width: 834px) {
+    .products-rec {
+        flex-wrap: wrap
+    }
+    .pins {
+        width: 41vw;
+        height: 41vw;
+    }
+    .bag {
+        width: 46vw;
+        height: 48vw;
+    }
+    .cap {
+        width: 40vw;
+        height: 40vw;
+    }
+    .notebook {
+        width: 40vw;
+        height: 34vw;
+        margin-top: 3vw;
+    }
+}
