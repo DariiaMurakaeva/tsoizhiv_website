@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -287,7 +287,8 @@ footer {
     }
 
     .about-hoodie {
-        width: 6vw;
+        width: 30vw;
+        margin: 16vw 35vw;
     }
 
     .book {
