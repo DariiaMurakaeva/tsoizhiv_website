@@ -214,3 +214,121 @@ a{
 footer {
     margin-top: 79vw;
 }
+
+@media only screen and (max-device-width: 900px) {
+    .cart_link h2 {
+        margin: -14.2vw 35vw;
+    }
+    .cap {
+        margin-left: 60vw;
+    }
+}
+
+@media only screen and (max-device-width: 500px) {
+    .cart_link h2 {
+        margin: -14.6vw 35vw;
+    }
+
+    .bag {
+        width: 63vw;
+        height: 58vw;
+        margin-left: 14vw;
+    }
+
+    .image-bag {
+        height: 75vw;
+    }
+
+    .about-bag {
+        width: 24vw;
+        margin: -24vw 52vw;
+    }
+
+    .notebook {
+        width: 44vw;
+        height: 50vw;
+        margin-top: 18.9vw;
+        margin-left: 25.9vw;
+    }
+
+    .image-notebook {
+        height: 56vw;
+    }
+
+    .about-notebook {
+        width: 27vw;
+        margin: -15vw -21vw;
+    }
+
+    .pins {
+        width: 59vw;
+        height: 43vw;
+        margin-top: 16.8vw;
+        margin-left: 16.6vw;
+    }
+    .image-pins {
+        height: 55vw;
+    }
+
+    .about-pins {
+        width: 26vw;
+        margin: -19vw 48vw;
+    }
+
+    .hoodie {
+        width: 54vw;
+        height: 55vw;
+        margin-top: 13.8vw;
+        margin-left: 27.4vw;
+    }
+    .image-hoodie {
+        height: 62vw;
+        margin: -51vw -20vw;
+    }
+
+    .about-hoodie {
+        width: 6vw;
+    }
+
+    .book {
+        width: 60vw;
+        height: 60vw;
+        margin: 5vw 13vw;
+    }
+    .image-book {
+        height: 60vw;
+    }
+
+    .about-book {
+        width: 23vw;
+        margin: -33vw 54vw;
+    }
+    .cap {
+        width: 50vw;
+        height: 25vw;
+        margin: 5vw 18vw;
+    }
+    .image-cap {
+        height: 50vw;
+    }
+
+    .about-cap {
+        width: 24vw;
+        margin: -44vw 41vw;
+    }
+
+    section h3 {
+        font-size: 4vw;
+    }
+    section p {
+        font-size: 3vw;
+        margin-top: 1.8vw;
+    }
+    .icon {
+        width: 8vw;
+        height: 8vw;
+    }
+    footer {
+        margin-top: 19vw;
+    }
+}
