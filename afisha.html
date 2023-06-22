@@ -9,306 +9,331 @@
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="stylesheets/afisha.css">
     <style media = "screen">
-        /* body::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width:100%;
-        height: 3046px;
-        background: url("images/1440_afisha.png");
-        opacity: 0.3;
-        } */
     </style> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="javascripts/all.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
 </head>
 <body>
-    <header>
-        <a href="index.html"><img src="./images/logo.svg"></a>
-        <nav>
-            <a href="afisha.html" class="first">афиша</a>
-            <a href="shop.html" class="second">магазин</a>
-            <a href="work.html" class="third">вакансии</a>
-            <a href="about.html" class="fourth">о нас</a>
-        </nav>
-    </header>
-    <div class="container_line1">
-        <div class="block_line1">
-            <a href="#container-concerts">концерты</a>
-            <a href="#container-lectures">лекции</a>
-            <a href="#container-lectures">кинопоказы</a>
-            <a href="#container-karaoke">мастер-классы</a>
-            <a href="#container-concerts">концерты</a>
-            <a href="#container-lectures">лекции</a>
-            <a href="#container-lectures">кинопоказы</a>
-            <a href="#container-karaoke">мастер-классы</a>
+    <div class="workspace">
+        <header>
+            <a href="index.html"><img src="./images/logo.svg"></a>
+            <nav>
+                <a href="afisha.html" class="first">афиша</a>
+                <a href="shop.html" class="second">магазин</a>
+                <a href="work.html" class="third">вакансии</a>
+                <a href="about.html" class="fourth">о нас</a>
+                <div class="menu"></div>
+            </nav>
+        </header>
+        <div class="container_line1">
+            <div class="block_line1">
+                <a href="#container-concerts">концерты</a>
+                <a href="#container-lectures">лекции</a>
+                <a href="#container-lectures">кинопоказы</a>
+                <a href="#container-karaoke">мастер-классы</a>
+                <a href="#container-concerts">концерты</a>
+                <a href="#container-lectures">лекции</a>
+                <a href="#container-lectures">кинопоказы</a>
+                <a href="#container-karaoke">мастер-классы</a>
+            </div>
         </div>
-    </div>
-    <div class="container_line2">
-        <div class="block_line2">
-            <a href="#container-concerts">концерты</a>
-            <a href="#container-lectures">лекции</a>
-            <a href="#container-lectures">кинопоказы</a>
-            <a href="#container-karaoke">мастер-классы</a>
-            <a href="#container-concerts">концерты</a>
-            <a href="#container-lectures">лекции</a>
-            <a href="#container-lectures">кинопоказы</a>
-            <a href="#container-karaoke">мастер-классы</a>
+        <div class="container_line2">
+            <div class="block_line2">
+                <a href="#container-concerts">концерты</a>
+                <a href="#container-lectures">лекции</a>
+                <a href="#container-lectures">кинопоказы</a>
+                <a href="#container-karaoke">мастер-классы</a>
+                <a href="#container-concerts">концерты</a>
+                <a href="#container-lectures">лекции</a>
+                <a href="#container-lectures">кинопоказы</a>
+                <a href="#container-karaoke">мастер-классы</a>
+            </div>
         </div>
-    </div>
-    <!-- Плакаты ряд 1 -->
-    <div id="container-concerts">
-        <div class="block_concerts">
-            <a href="ticket_1.html" class="poster">
-                <section class="image ber"></section>
-                <section class="text">
-                    <h3>Большой рок-концерт</h3>
-                    <p>28/09</p>
-                    <p>19:00</p>
-                </section>
-            </a>
-            <a href="ticket_2.html" class="poster">
-                <section class="image ike"></section>
-                <section class="text">
-                    <h3>Концерт Е. Летова</h3>
-                    <p>30/08</p>
-                    <p>20:00</p>
-                </section>
-            </a>
-            <a href="ticket-3.html" class="poster">
-                <section class="image ech"></section>
-                <section class="text">
-                    <h3>Концерт В. Цоя</h3>
-                    <p>13/09</p>
-                    <p>22:00</p>
-                </section>
-            </a>
-            <a href="ticket-4.html" class="poster">
-                <section class="image durt"></section>
-                <section class="text">
-                    <h3>Вечер рок-музыки</h3>
-                    <p>25/05</p>
-                    <p>18:00</p>
-                </section>
-            </a>
-            <a href="ticket_1.html" class="poster">
-                <section class="image ber"></section>
-                <section class="text">
-                    <h3>Большой рок-концерт</h3>
-                    <p>28/09</p>
-                    <p>19:00</p>
-                </section>
-            </a>
-            <a href="ticket_2.html" class="poster">
-                <section class="image ike"></section>
-                <section class="text">
-                    <h3>Концерт Е. Летова</h3>
-                    <p>30/08</p>
-                    <p>20:00</p>
-                </section>
-            </a>
-            <a href="ticket-3.html" class="poster">
-                <section class="image ech"></section>
-                <section class="text">
-                    <h3>Концерт В. Цоя</h3>
-                    <p>13/09</p>
-                    <p>22:00</p>
-                </section>
-            </a>
-            <a href="ticket-4.html" class="poster">
-                <section class="image durt"></section>
-                <section class="text">
-                    <h3>Вечер рок-музыки</h3>
-                    <p>25/05</p>
-                    <p>18:00</p>
-                </section>
-            </a>
+        <!-- Плакаты ряд 1 -->
+        <div id="container-concerts">
+            <div class="block_concerts">
+                <a href="ticket_1.html" class="poster">
+                    <section class="image ber"></section>
+                    <section class="text">
+                        <h3>Большой<br>рок-концерт</h3>
+                        <p>28/09</p>
+                        <p>19:00</p>
+                    </section>
+                </a>
+                <a href="ticket_2.html" class="poster">
+                    <section class="image ike"></section>
+                    <section class="text txt-blck">
+                        <h3>Концерт<br>Е. Летова</h3>
+                        <p>30/08</p>
+                        <p>20:00</p>
+                    </section>
+                </a>
+                <a href="ticket-3.html" class="poster">
+                    <section class="image ech"></section>
+                    <section class="text">
+                        <h3>Концерт<br>В. Цоя</h3>
+                        <p>13/09</p>
+                        <p>22:00</p>
+                    </section>
+                </a>
+                <a href="ticket-4.html" class="poster">
+                    <section class="image durt"></section>
+                    <section class="text">
+                        <h3>Вечер<br>рок-музыки</h3>
+                        <p>25/05</p>
+                        <p>18:00</p>
+                    </section>
+                </a>
+                <a href="ticket_1.html" class="poster">
+                    <section class="image ber"></section>
+                    <section class="text">
+                        <h3>Большой<br>рок-концерт</h3>
+                        <p>28/09</p>
+                        <p>19:00</p>
+                    </section>
+                </a>
+                <a href="ticket_2.html" class="poster">
+                    <section class="image ike"></section>
+                    <section class="text txt-blck">
+                        <h3>Концерт<br>Е. Летова</h3>
+                        <p>30/08</p>
+                        <p>20:00</p>
+                    </section>
+                </a>
+                <a href="ticket-3.html" class="poster">
+                    <section class="image ech"></section>
+                    <section class="text">
+                        <h3>Концерт<br>В. Цоя</h3>
+                        <p>13/09</p>
+                        <p>22:00</p>
+                    </section>
+                </a>
+                <a href="ticket-4.html" class="poster">
+                    <section class="image durt"></section>
+                    <section class="text">
+                        <h3>Вечер<br>рок-музыки</h3>
+                        <p>25/05</p>
+                        <p>18:00</p>
+                    </section>
+                </a>
+            </div>
         </div>
-    </div>
-
-    <!-- Плакаты ряд 2 -->
-    <div id="container-lectures">
-        <div class="block_lectures">
-            <a href="" class="poster">
-                <section class="image bish"></section>
-                <section class="text">
-                    <h3>Лекция А. Градского</h3>
-                    <p>28/09</p>
-                    <p>12:00</p>
-                </section>
-            </a>
-            <a href=""iv class="poster">
-                <section class="image alty"></section>
-                <section class="text">
-                    <h3>Кинопоказ</h3>
-                    <p>28/08</p>
-                    <p>22:00</p>
-                </section>
-            </a>
-            <a href="" class="poster">
-                <section class="image zhide"></section>
-                <section class="text">
-                    <h3>Лекция В. Цоя</h3>
-                    <p>30/089</p>
-                    <p>15:00</p>
-                </section>
-            </a>
-            <a href="" class="poster">
-                <section class="image sigez"></section>
-                <section class="text">
-                    <h3>Кинопоказ</h3>
-                    <p>28/08</p>
-                    <p>18:00</p>
-                </section>
-            </a>
-            <a href="" class="poster">
-                <section class="image tugyz"></section>
-                <section class="text">
-                    <h3>Лекция Я. Дягилевой</h3>
-                    <p>27/09</p>
-                    <p>16:30</p>
-                </section>
-            </a>
-            <a href="" class="poster">
-                <section class="image bish"></section>
-                <section class="text">
-                    <h3>Лекция А. Градского</h3>
-                    <p>28/09</p>
-                    <p>12:00</p>
-                </section>
-            </a>
-            <a href="" class="poster">
-                <section class="image alty"></section>
-                <section class="text">
-                    <h3>Кинопоказ</h3>
-                    <p>28/08</p>
-                    <p>22:00</p>
-                </section>
-            </a>
-            <a href="" class="poster">
-                <section class="image zhide"></section>
-                <section class="text">
-                    <h3>Лекция В. Цоя</h3>
-                    <p>30/089</p>
-                    <p>15:00</p>
-                </section>
-            </a>
-            <a href="" class="poster">
-                <section class="image sigez"></section>
-                <section class="text">
-                    <h3>Кинопоказ</h3>
-                    <p>28/08</p>
-                    <p>18:00</p>
-                </section>
-            </a>
-            <a href="" class="poster">
-                <section class="image tugyz"></section>
-                <section class="text">
-                    <h3>Лекция Я. Дягилевой</h3>
-                    <p>27/09</p>
-                    <p>16:30</p>
-                </section>
-            </a>
+    
+        <!-- Плакаты ряд 2 -->
+        <div id="container-lectures">
+            <div class="block_lectures">
+                <div class="poster-lectures">
+                    <section class="image bish"></section>
+                    <section class="text txt-blck">
+                        <h3>Лекция А. Градского</h3>
+                        <p>28/09</p>
+                        <p>12:00</p>
+                    </section>
+                </div>
+                <div class="poster poster-lectures">
+                    <section class="image alty"></section>
+                    <section class="text txt-blck">
+                        <h3>Кинопоказ<br>«Кино про кино»</h3>
+                        <p>28/08</p>
+                        <p>22:00</p>
+                    </section>
+                </div>
+                <div class="poster poster-lectures">
+                    <section class="image zhide"></section>
+                    <section class="text">
+                        <h3>Лекция<br>В. Цоя</h3>
+                        <p>30/089</p>
+                        <p>15:00</p>
+                    </section>
+                </div>
+                <div class="poster poster-lectures">
+                    <section class="image sigez"></section>
+                    <section class="text">
+                        <h3>Кинопоказ<br>«Кино про кино»</h3>
+                        <p>28/08</p>
+                        <p>18:00</p>
+                    </section>
+                </div>
+                <div class="poster poster-lectures">
+                    <section class="image tugyz"></section>
+                    <section class="text txt-blck">
+                        <h3>Лекция<br>Я. Дягилевой</h3>
+                        <p>27/09</p>
+                        <p>16:30</p>
+                    </section>
+                </div>
+                <div class="poster poster-lectures">
+                    <section class="image bish"></section>
+                    <section class="text txt-blck">
+                        <h3>Лекция<br>А. Градского</h3>
+                        <p>28/09</p>
+                        <p>12:00</p>
+                    </section>
+                </div>
+                <div class="poster poster-lectures">
+                    <section class="image alty"></section>
+                    <section class="text txt-blck">
+                        <h3>Кинопоказ<br>«Кино про кино»</h3>
+                        <p>28/08</p>
+                        <p>22:00</p>
+                    </section>
+                </div>
+                <div class="poster poster-lectures">
+                    <section class="image zhide"></section>
+                    <section class="text">
+                        <h3>Лекция<br>В. Цоя</h3>
+                        <p>30/089</p>
+                        <p>15:00</p>
+                    </section>
+                </div>
+                <div class="poster poster-lectures">
+                    <section class="image sigez"></section>
+                    <section class="text">
+                        <h3>Кинопоказ<br>«Кино про кино»</h3>
+                        <p>28/08</p>
+                        <p>18:00</p>
+                    </section>
+                </div>
+                <div class="poster poster-lectures">
+                    <section class="image tugyz"></section>
+                    <section class="text txt-blck">
+                        <h3>Лекция<br>Я. Дягилевой</h3>
+                        <p>27/09</p>
+                        <p>16:30</p>
+                    </section>
+                </div>
+            </div>
         </div>
-    </div>
-
-    <!-- Плакаты ряд 3 -->
-<div id="container-karaoke">
-        <div class="block_karaoke">
-            <a href="" class="poster">
-                <section class="image oon"></section>
-                <section class="text">
-                    <h3>Вечер караоке</h3>
-                    <p>27/08</p>
-                    <p>18:00</p>
-                </section>
-            </a>
-            <a href="" class="poster">
-                <section class="image oonber"></section>
-                <section class="text">
-                    <h3>Семейный концерт</h3>
-                    <p>15/12</p>
-                    <p>15:00</p>
-                </section>
-            </a>
-            <a href="" class="poster">
-                <section class="image oonike"></section>
-                <section class="text">
-                    <h3>Вечер караоке</h3>
-                    <p>27/08</p>
-                    <p>18:00</p>
-                </section>
-            </a>
-            <a href="" class="poster">
-                <section class="image oonech"></section>
-                <section class="text">
-                    <h3>Семейный концерт</h3>
-                    <p>01/12</p>
-                    <p>14:00</p>
-                </section>
-            </a>
-            <a href="" class="poster">
-                <section class="image oondurt"></section>
-                <section class="text">
-                    <h3>Вечер караоке</h3>
-                    <p>27/08</p>
-                    <p>18:00</p>
-                </section>
-            </a>
-            <a href="" class="poster">
-                <section class="image oon"></section>
-                <section class="text">
-                    <h3>Вечер караоке</h3>
-                    <p>27/08</p>
-                    <p>18:00</p>
-                </section>
-            </a>
-            <a href="" class="poster">
-                <section class="image oonber"></section>
-                <section class="text">
-                    <h3>Семейный концерт</h3>
-                    <p>15/12</p>
-                    <p>15:00</p>
-                </section>
-            </a>
-            <a href="" class="poster">
-                <section class="image oonike"></section>
-                <section class="text">
-                    <h3>Вечер караоке</h3>
-                    <p>27/08</p>
-                    <p>18:00</p>
-                </section>
-            </a>
-            <a href="" class="poster">
-                <section class="image oonech"></section>
-                <section class="text">
-                    <h3>Семейный концерт</h3>
-                    <p>01/12</p>
-                    <p>14:00</p>
-                </section>
-            </a>
-            <a href="" class="poster">
-                <section class="image oondurt"></section>
-                <section class="text">
-                    <h3>Вечер караоке</h3>
-                    <p>27/08</p>
-                    <p>18:00</p>
-                </section>
-            </a>
+    
+        <!-- Плакаты ряд 3 -->
+    <div id="container-karaoke">
+            <div class="block_karaoke">
+                <a href="" class="poster poster-karaoke">
+                    <section class="image oon"></section>
+                    <section class="text">
+                        <h3>Вечер<br>караоке</h3>
+                        <p>27/08</p>
+                        <p>18:00</p>
+                    </section>
+                </a>
+                <a href="" class="poster poster-karaoke">
+                    <section class="image oonber"></section>
+                    <section class="text txt-blck">
+                        <h3>Семейный<br>концерт</h3>
+                        <p>15/12</p>
+                        <p>15:00</p>
+                    </section>
+                </a>
+                <a href="" class="poster poster-karaoke">
+                    <section class="image oonike"></section>
+                    <section class="text">
+                        <h3>Вечер<br>караоке</h3>
+                        <p>27/08</p>
+                        <p>18:00</p>
+                    </section>
+                </a>
+                <a href="" class="poster poster-karaoke">
+                    <section class="image oonech"></section>
+                    <section class="text txt-blck">
+                        <h3>Семейный<br>концерт</h3>
+                        <p>01/12</p>
+                        <p>14:00</p>
+                    </section>
+                </a>
+                <a href="" class="poster poster-karaoke">
+                    <section class="image oondurt"></section>
+                    <section class="text txt-blck">
+                        <h3>Вечер<br>караоке</h3>
+                        <p>27/08</p>
+                        <p>18:00</p>
+                    </section>
+                </a>
+                <a href="" class="poster poster-karaoke">
+                    <section class="image oon"></section>
+                    <section class="text">
+                        <h3>Вечер<br>караоке</h3>
+                        <p>27/08</p>
+                        <p>18:00</p>
+                    </section>
+                </a>
+                <a href="" class="poster poster-karaoke">
+                    <section class="image oonber"></section>
+                    <section class="text txt-blck">
+                        <h3>Семейный<br>концерт</h3>
+                        <p>15/12</p>
+                        <p>15:00</p>
+                    </section>
+                </a>
+                <a href="" class="poster poster-karaoke">
+                    <section class="image oonike"></section>
+                    <section class="text">
+                        <h3>Вечер<br>караоке</h3>
+                        <p>27/08</p>
+                        <p>18:00</p>
+                    </section>
+                </a>
+                <a href="" class="poster poster-karaoke">
+                    <section class="image oonech"></section>
+                    <section class="text txt-blck">
+                        <h3>Семейный<br>концерт</h3>
+                        <p>01/12</p>
+                        <p>14:00</p>
+                    </section>
+                </a>
+                <a href="" class="poster poster-karaoke">
+                    <section class="image oondurt"></section>
+                    <section class="text txt-blck">
+                        <h3>Вечер<br>караоке</h3>
+                        <p>27/08</p>
+                        <p>18:00</p>
+                    </section>
+                </a>
+            </div>
         </div>
+        <div class="mailing-list">
+            <h2>Рассылка</h2>
+            <p>Чтобы не пропустить интересные события,<br>подписывайтесь на нашу рассылку</p>
+            <form action="">
+                <div class="list-container">
+                    <input type="text" name="" id="" placeholder="Имя и фамилия">
+                <input type="email" name="" id="" placeholder="e-mail">
+                <div class="button mailing-btn" href="">Отправить</div>
+                </div>
+            </form>
+        </div>
+        <div class="forma none">
+            <form action="">
+                <h2>Запись на мероприятие</h2>
+                <p>Заполните форму</p>
+                <div class="data">
+                    <input type="text" name="" id="" placeholder="Имя и фамилия">
+                    <input type="date" name="" id="" placeholder="Дата рождения">
+                    <input type="email" name="" id="" placeholder="e-mail">
+                </div>
+                <p>Выберите мероприятие из списка</p>
+                <ul>
+                    <li><label for="check1"><input type="checkbox" id="check1">Лекция</label></li>
+                    <li><label for="check2"><input type="checkbox" id="check2">Кинопоказ</label></li>
+                    <li><label for="check3"><input type="checkbox" id="check3">Мастер-класс</label></li>
+                    <li><label for="check4"><input type="checkbox" id="check4">Ночь караоке</label></li>
+                </ul>
+                <div class="button-reg">Отправить</div>
+                <div class="cross"></div>
+            </form>
+            
+        </div>
+        <div class="forma-done none">
+            <div class="cross-done"></div>
+            <div class="ghost-img"></div>
+        </div>
+        <footer>
+            <p>Дария Муракаева</p>
+            <p>Б22ДЗ10</p>
+            <p>HSE Art and Design</p>
+        </footer>
     </div>
-    <div class="mailing-list">
-        <h2>Рассылка</h2>
-        <p>Чтобы не пропустить интересные события,<br>подписывайтесь на нашу рассылку</p>
-        <form action="">
-            <input type="text" name="" id="" placeholder="Имя и фамилия">
-            <input type="email" name="" id="" placeholder="e-mail">
-            <a class="button" href="">Отправить</a>
-        </form>
-    </div>
-    <footer>
-        <p>Дария Муракаева</p>
-        <p>Б22ДЗ10</p>
-        <p>HSE Art and Design</p>
-    </footer>
+    <div class="ghost-afisha none"></div>
+    <div class="frame"></div>
 </body>
 </html>
