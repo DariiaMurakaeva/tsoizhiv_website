@@ -537,3 +537,370 @@ body > div {
         filter: blur(0.2vw);
     }
 }
+
+
+@media only screen and (max-device-width: 1280px) {
+    @keyframes move1 {
+        from {
+            top: 43vw;
+            left: 75vw;
+            transform: rotate(-12deg);
+        }
+        to {
+            top: 41vw;
+            left: 74vw;
+            transform: rotate(-9deg);
+            filter: blur(0.2vw);
+    }
+        }
+}
+
+@media only screen and (max-device-width: 1024px) {
+    @keyframes move1 {
+        from {
+            top: 53vw;
+            left: 75vw;
+            transform: rotate(-12deg);
+        }
+        to {
+            top: 51vw;
+            left: 74vw;
+            transform: rotate(-9deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move21 {
+        from {
+            top: 58vw;
+            left: 6vw;
+            transform: rotate(-12deg);
+        }
+        
+        to {
+            top: 56vw;
+            left: 7vw;
+            transform: rotate(-6deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move5 {
+        from {
+            top: 53vw;
+            left: 62vw;
+            transform: rotate(-35deg);
+        }
+    
+        to {
+            top: 52vw;
+            left: 63vw;
+            transform: rotate(-38deg);
+            filter: blur(0.3vw);
+        }
+    }
+}
+
+@media only screen and (max-device-width: 834px) {
+    .center {
+        width: 48vw;
+        margin: 49vw auto;
+    }
+
+    @keyframes move8 {
+        from {
+            top: 108vw;
+            left: 39vw;
+            transform: rotate(-5deg);
+        }
+    
+        to {
+            top: 110vw;
+            left: 42vw;
+            transform: rotate(-3deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move3 {
+        from {
+            top: 117vw;
+            left: 64vw;
+            transform: rotate(15deg);
+        }
+    
+        to {
+            top: 119vw;
+            left: 66vw;
+            transform: rotate(12deg);
+            filter: blur(0.3vw);
+        }
+    }
+    @keyframes move4 {
+        from {
+            top: 78vw;
+            left: 12vw;
+            transform: rotate(-9deg);
+        }
+    
+        to {
+            top: 79vw;
+            left: 13vw;
+            transform: rotate(-12deg);
+            filter: blur(0.3vw);
+        }
+    }
+    @keyframes move14 {
+        from {
+            top: 127vw;
+            left: 13vw;
+            transform: rotate(18deg);
+        }
+    
+        to {
+            top: 125vw;
+            left: 15vw;
+            transform: rotate(15deg);
+            filter: blur(0.3vw);
+        }
+    }
+    @keyframes move13 {
+    from {
+        top: 88.3vw;
+        left: 34vw;
+        transform: rotate(2deg);
+    }
+
+    to {
+        top: 89.3vw;
+        left: 34.5vw;
+        transform: rotate(-1deg);
+        filter: blur(0.2vw);
+        }
+    }
+    @keyframes move6 {
+        from {
+            top: 98vw;
+            left: 7vw;
+        }
+    
+        to {
+            top: 98vw;
+            left: 5vw;
+            transform: rotate(-3deg);
+            filter: blur(0.4vw);
+        }
+    }
+    @keyframes move11 {
+        from {
+            top: 80.3vw;
+            left: 76vw;
+            transform: rotate(-18deg);
+        }
+    
+        to {
+            top: 82.3vw;
+            left: 75vw;
+            transform: rotate(-16deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move18 {
+        from {
+            top: 82.3vw;
+            left: 54vw;
+            transform: rotate(-28deg);
+        }
+    
+        to {
+            top: 80.3vw;
+            left: 56vw;
+            transform: rotate(-26deg);
+            filter: blur(0.3vw);
+        }
+    }
+    @keyframes move20 {
+        from {
+            top: 48vw;
+            left: 6vw;
+            transform: rotate(18deg);
+        }
+    
+        to {
+            top: 49vw;
+            left: 5vw;
+            transform: rotate(15deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move21 {
+        from {
+            top: 42vw;
+            left: 26vw;
+            transform: rotate(-12deg);
+        }
+        
+        to {
+            top: 40vw;
+            left: 27vw;
+            transform: rotate(-6deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move2 {
+        from {
+            top: 45vw;
+            left: 60vw;
+            transform: rotate(12deg);
+        }
+    
+        to {
+            top: 46vw;
+            left: 57vw;
+            transform: rotate(14deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move19 {
+        from {
+            top: 30vw;
+            left: 74vw;
+            filter: blur(0.3vw);
+        }
+    
+        to {
+            top: 32vw;
+            left: 73vw;
+            filter: blur(0vw);
+        }
+    }
+    @keyframes move15 {
+        from {
+            top: 104vw;
+            left: 75vw;
+            transform: rotate(-12deg);
+        }
+    
+        to {
+            top: 102vw;
+            left: 73vw;
+            transform: rotate(-16deg);
+            filter: blur(0.3vw);
+        }
+    }
+}
+
+@media only screen and (max-device-width: 414px) {
+    .center {
+        width: 64vw;
+        margin: 69vw auto;
+    }
+    @keyframes move6 {
+        from {
+            top: 168vw;
+            left: 7vw;
+        }
+    
+        to {
+            top: 168vw;
+            left: 5vw;
+            transform: rotate(-3deg);
+            filter: blur(0.4vw);
+        }
+    }
+    @keyframes move13 {
+        from {
+            top: 148vw;
+            left: 42vw;
+            transform: rotate(2deg);
+        }
+    
+        to {
+            top: 149vw;
+            left: 42.5vw;
+            transform: rotate(-1deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move16 {
+        from {
+            top: 153vw;
+            left: 79vw;
+            transform: rotate(-12deg);
+        }
+    
+        to {
+            top: 154vw;
+            left: 77vw;
+            transform: rotate(-15deg);
+            filter: blur(0.3vw);
+        }
+    }
+    @keyframes move4 {
+        from {
+            top: 68vw;
+            left: 12vw;
+            transform: rotate(-9deg);
+        }
+    
+        to {
+            top: 69vw;
+            left: 13vw;
+            transform: rotate(-12deg);
+            filter: blur(0.3vw);
+        }
+    }
+    @keyframes move18 {
+        from {
+            top: 72.3vw;
+            left: 54vw;
+            transform: rotate(-28deg);
+        }
+    
+        to {
+            top: 70.3vw;
+            left: 56vw;
+            transform: rotate(-26deg);
+            filter: blur(0.3vw);
+        }
+    }
+    @keyframes move2 {
+        from {
+            top: 165vw;
+            left: 60vw;
+            transform: rotate(12deg);
+        }
+    
+        to {
+            top: 166vw;
+            left: 57vw;
+            transform: rotate(14deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move17 {
+        from {
+            top: 52vw;
+            left: 56vw;
+            transform: rotate(-12deg);
+        }
+        
+        to {
+            top: 50vw;
+            left: 57vw;
+            transform: rotate(-6deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move5 {
+        from {
+            top: 100vw;
+            left: 4vw;
+            transform: rotate(-35deg);
+        }
+    
+        to {
+            top: 109vw;
+            left: 5vw;
+            transform: rotate(-38deg);
+            filter: blur(0.3vw);
+        }
+    }
+}
