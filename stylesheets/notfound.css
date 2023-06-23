@@ -198,7 +198,7 @@ body > div {
 }
 
 .third-8 {
-    width: 23vw;
+    width: 9vw;
     height: 6vw;
     background-image: url("../images/404_3.png");
     top: 48vw;
@@ -532,7 +532,6 @@ body > div {
     }
 }
 
-
 @keyframes move21 {
     from {
         top: 18vw;
@@ -545,5 +544,412 @@ body > div {
         left: 3vw;
         transform: rotate(-6deg);
         filter: blur(0.2vw);
+    }
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .center {
+        margin: 15vw auto;
+    }
+    .button {
+        margin-top: -3vw;
+    }
+    @keyframes move8 {
+        from {
+            top: 58vw;
+            left: 39vw;
+            transform: rotate(-5deg);
+        }
+    
+        to {
+            top: 60vw;
+            left: 42vw;
+            transform: rotate(-3deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move14 {
+        from {
+            top: 47.3vw;
+            left: 18vw;
+            transform: rotate(-28deg);
+        }
+    
+        to {
+            top: 49.3vw;
+            left: 20vw;
+            transform: rotate(-25deg);
+            filter: blur(0.3vw);
+        }
+    }
+    @keyframes move4 {
+        from {
+            top: 58vw;
+            left: 4vw;
+            transform: rotate(-9deg);
+        }
+    
+        to {
+            top: 59vw;
+            left: 6vw;
+            transform: rotate(-12deg);
+            filter: blur(0.3vw);
+        }
+    }
+    @keyframes move12 {
+        from {
+            top: 42vw;
+            left: 3vw;
+            transform: rotate(-8deg);
+        }
+    
+        to {
+            top: 43vw;
+            left: 3.5vw;
+            transform: rotate(-6deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move21 {
+        from {
+            top: 28vw;
+            left: 4vw;
+            transform: rotate(-12deg);
+        }
+        
+        to {
+            top: 26vw;
+            left: 5vw;
+            transform: rotate(-6deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move17 {
+        from {
+            top: 59vw;
+            left: 77vw;
+            transform: rotate(15deg);
+        }
+    
+        to {
+            top: 61vw;
+            left: 79vw;
+            transform: rotate(12deg);
+            filter: blur(0.3vw);
+        }
+    }
+}
+@media only screen and (max-device-width: 834px) {
+    .center {
+        width: 40vw;
+        height: 27vw;
+        margin: 40vw auto;
+        margin-bottom: 0;
+    }
+    .button {
+        margin-top: 11vw;
+    }
+    @keyframes move15 {
+        from {
+            top: 93vw;
+            left: 37vw;
+            transform: rotate(-12deg);
+        }
+    
+        to {
+            top: 92vw;
+            left: 35vw;
+            transform: rotate(-16deg);
+            filter: blur(0.3vw);
+        }
+    }
+    @keyframes move8 {
+        from {
+            top: 68vw;
+            left: 86vw;
+            transform: rotate(-5deg);
+        }
+    
+        to {
+            top: 70vw;
+            left: 88vw;
+            transform: rotate(-3deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move14 {
+        from {
+            top: 108vw;
+            left: 16vw;
+            transform: rotate(-28deg);
+        }
+    
+        to {
+            top: 106vw;
+            left: 18vw;
+            transform: rotate(-25deg);
+            filter: blur(0.3vw);
+        }
+    }
+    @keyframes move11 {
+        from {
+            top: 82.3vw;
+            left: 77vw;
+            transform: rotate(-18deg);
+        }
+    
+        to {
+            top: 84.3vw;
+            left: 76vw;
+            transform: rotate(-16deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move1 {
+        from {
+            top: 106vw;
+            left: 76vw;
+            transform: rotate(-28deg);
+        }
+    
+        to {
+            top: 104vw;
+            left: 78vw;
+            transform: rotate(-24deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move13 {
+        from {
+            top: 32.3vw;
+            left: 42vw;
+            transform: rotate(2deg);
+        }
+    
+        to {
+            top: 33.3vw;
+            left: 42.5vw;
+            transform: rotate(-1deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move21 {
+        from {
+            top: 88vw;
+            left: 8vw;
+            transform: rotate(-12deg);
+        }
+        
+        to {
+            top: 86vw;
+            left: 9vw;
+            transform: rotate(-6deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move5 {
+        from {
+            top: 12vw;
+            left: 52vw;
+            transform: rotate(-15deg);
+        }
+    
+        to {
+            top: 11vw;
+            left: 53vw;
+            transform: rotate(-13deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move9 {
+        from {
+            top: 7vw;
+            left: 22vw;
+            transform: rotate(15deg);
+        }
+    
+        to {
+            top: 8vw;
+            left: 24vw;
+            transform: rotate(18deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move6 {
+        from {
+            top: 23.3vw;
+            left: 10vw;
+        }
+    
+        to {
+            top: 23.3vw;
+            left: 8vw;
+            transform: rotate(-3deg);
+            filter: blur(0.4vw);
+        }
+    }
+    .first-6 {
+        width: 12vw;
+        height: 8vw;
+    }
+    @keyframes move7 {
+        from {
+            top: 100vw;
+            left: 57vw;
+            transform: rotate(41deg);
+        }
+    
+        to {
+            top: 103vw;
+            left: 59vw;
+            transform: rotate(43deg);
+            filter: blur(0.2vw);
+        }
+    }
+}
+
+@media only screen and (max-device-width: 414px) {
+    .center {
+        width: 60vw;
+        height: 40vw;
+        margin: 50vw auto;
+        margin-bottom: 0;
+    }
+    .button {
+        width: 40vw;
+        height: 8vw;
+        font-size: 4vw;
+        padding-top: 2vw;
+        margin-top: 12vw;
+        left: calc(100% - 69vw);
+    }
+    @keyframes move20 {
+        from {
+            top: 126vw;
+            left: 21vw;
+            transform: rotate(18deg);
+        }
+    
+        to {
+            top: 127vw;
+            left: 24vw;
+            transform: rotate(15deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move13 {
+        from {
+            top: 142.3vw;
+            left: 42vw;
+            transform: rotate(2deg);
+        }
+    
+        to {
+            top: 143.3vw;
+            left: 42.5vw;
+            transform: rotate(-1deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move15 {
+        from {
+            top: 135vw;
+            left: 67vw;
+            transform: rotate(-12deg);
+        }
+    
+        to {
+            top: 134vw;
+            left: 65vw;
+            transform: rotate(-16deg);
+            filter: blur(0.3vw);
+        }
+    }
+    @keyframes move7 {
+        from {
+            top: 161vw;
+            left: 70vw;
+            transform: rotate(41deg);
+        }
+    
+        to {
+            top: 163vw;
+            left: 72vw;
+            transform: rotate(43deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move11 {
+        from {
+            top: 32.3vw;
+            left: 27vw;
+            transform: rotate(-18deg);
+        }
+    
+        to {
+            top: 34.3vw;
+            left: 26vw;
+            transform: rotate(-16deg);
+            filter: blur(0.2vw);
+        }
+    }
+    @keyframes move14 {
+        from {
+            top: 153.3vw;
+            left: 12vw;
+            transform: rotate(-28deg);
+        }
+    
+        to {
+            top: 151.3vw;
+            left: 14vw;
+            transform: rotate(-25deg);
+            filter: blur(0.3vw);
+        }
+    }
+    .third-10 {
+        width: 12vw;
+        height: 8vw
+    }
+    @keyframes move19 {
+        from {
+            top: 40vw;
+            left: 48vw;
+            filter: blur(0.2vw);
+        }
+    
+        to {
+            top: 42vw;
+            left: 46vw;
+            filter: blur(0vw);
+        }
+    }
+    @keyframes move18 {
+        from {
+            top: 168.3vw;
+            left: 54vw;
+            transform: rotate(-28deg);
+        }
+    
+        to {
+            top: 166.3vw;
+            left: 56vw;
+            transform: rotate(-26deg);
+            filter: blur(0.3vw);
+        }
+    }
+    @keyframes move12 {
+        from {
+            top: 112vw;
+            left: 4vw;
+            transform: rotate(-8deg);
+        }
+    
+        to {
+            top: 113vw;
+            left: 4.5vw;
+            transform: rotate(-6deg);
+            filter: blur(0.2vw);
+        }
     }
 }
